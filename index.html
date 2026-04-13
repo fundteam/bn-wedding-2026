@@ -6,7 +6,7 @@
     <title>Wedding Invitation | Chanachai & Pailin</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&family=Charm:wght@400;700&family=Noto+Serif+Thai:wght@400;700&family=Sarabun:wght@200;300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&family=Charm:wght@400;700&family=Noto+Serif+Thai:wght@400;700&family=Sarabun:wght@200;300;400;600Itim&family=Mali:wght@300;400;500&family=Sriracha&display=swap"
       rel="stylesheet"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -27,7 +27,7 @@
         position: relative;
       }
       .font-serif-thai {
-        font-family: "Charm", cursive;
+        font-family: "Mali", cursive;
       }
       .font-header-thai {
         font-family: "Noto Serif Thai", serif;
@@ -268,7 +268,51 @@
       </div>
     </section>
 
-    <!-- 3. Invitation Section: Formal Ceremony -->
+    <!-- 3. Our Story Section -->
+    <section class="py-32 px-6">
+      <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+        <div class="quote-frame">
+          <h2
+            class="text-3xl md:text-5xl font-serif-thai text-red-900 leading-[1.6] md:leading-[1.8] mb-8"
+          >
+            "สิ้นสุด 18 ปีในฐานะเพื่อนร่วมทาง<br />เพื่อเริ่มต้น 'บทใหม่'
+            ของชีวิตคู่ที่สมบูรณ์"
+          </h2>
+
+          <div class="h-[1px] w-24 bg-gold-soft mx-auto mb-10"></div>
+
+          <div
+            class="space-y-6 text-gray-600 font-body-thai text-lg md:text-xl leading-relaxed max-w-2xl mx-auto"
+          >
+            <p>
+              จากเพื่อนร่วมชั้นเรียนมัธยม 4 ในวันวาน
+              <br class="hidden md:block" />
+              สู่คู่ชีวิตที่พร้อมจะเดินเคียงข้างกันในวันนี้
+            </p>
+            <p class="text-base text-gray-400 italic">
+              การเดินทางที่ยาวนาน สอนให้เราเรียนรู้ว่าความสุขที่แท้จริง
+              <br class="hidden md:block" />
+              คือการมีกันและกันในทุกๆ ช่วงเวลาของชีวิต
+            </p>
+          </div>
+        </div>
+
+        <!-- Optional Couple Image below text -->
+        <div class="mt-16 max-w-md mx-auto" data-aos="zoom-in">
+          <div
+            class="p-2 bg-white border border-gold-soft shadow-xl transform -rotate-2"
+          >
+            <img
+              src="images/our.jpg"
+              alt="Our Story"
+              class="w-full h-auto grayscale-[20%]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Invitation Section: Formal Ceremony -->
     <section class="py-28 px-6 red-gradient-bg text-center">
       <div
         class="max-w-3xl mx-auto border border-gold-soft/30 py-20 px-8 relative"
@@ -284,9 +328,9 @@
 
         <div class="space-y-10">
           <h3
-            class="text-white text-xl md:text-2xl font-body-thai font-light tracking-widest leading-relaxed"
+            class="text-white text-xl md:text-2xl font-body-thai font-light tracking-widest leading-[2.0] md:leading-[2.4]"
           >
-            มีความยินดีขอเรียนเชิญเพื่อเป็นเกียรติ<br />เนื่องในพิธีมงคลสมรส
+            เพราะคุณคือคนพิเศษสำหรับเรา<br />จึงขอเรียนเชิญเพื่อเป็นเกียรติเนื่องในพิธีมงคลสมรส
           </h3>
 
           <div class="py-6">
@@ -310,7 +354,7 @@
       </div>
     </section>
 
-    <!-- 4. Schedule Section: Inspired by final.jpg -->
+    <!-- 5. Schedule Section: Inspired by final.jpg -->
     <section class="py-24 px-4 auspicious-clouds relative overflow-hidden">
       <div class="max-w-4xl mx-auto relative z-10">
         <div class="text-center mb-16" data-aos="fade-up">
@@ -385,7 +429,7 @@
       </div>
     </section>
 
-    <!-- 5. Dress Code Section -->
+    <!-- 6. Dress Code Section -->
     <section class="py-24 px-4 bg-white text-center">
       <div data-aos="fade-up">
         <h2 class="text-xl font-bold mb-2 text-gray-800 font-header-thai">
@@ -439,7 +483,7 @@
       </div>
     </section>
 
-    <!-- 6. Location Section -->
+    <!-- 7. Location Section -->
     <section class="py-24 px-4 bg-gray-50">
       <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
         <h2 class="text-2xl font-header-thai font-bold mb-3 text-red-900">
@@ -453,6 +497,7 @@
           class="rounded-sm overflow-hidden shadow-2xl border-[8px] border-white mb-12 h-[450px]"
         >
           <iframe
+            title="place"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3874.5495715096936!2d100.5187584!3d13.8060052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29b8cfcfa8e8d%3A0xa832a4634aeac064!2z4Lin4Li04LmA4Lio4Lip4LmE4LiB4LmI4Lii4LmI4Liy4LiH4Lig4Lix4LiV4LiV4Liy4LiE4Liy4Lij!5e0!3m2!1sth!2sth!4v1776055242458!5m2!1sth!2sth"
             width="100%"
             height="100%"
